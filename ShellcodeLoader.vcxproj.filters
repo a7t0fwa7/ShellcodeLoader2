@@ -21,19 +21,45 @@
     <ClCompile Include="CodeInject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AutoRun.cpp">
+    <ClCompile Include="AntiSandbox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Main.h">
+    <ClInclude Include="Utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CodeInject.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="AutoRun.h">
+    <ClInclude Include="AntiSandbox.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="AssemblyCalls.asm">
+      <Filter>源文件</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
